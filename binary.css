@@ -1,0 +1,20 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(35, 202, 35);
+}
+#result:hover{
+    color: rgb(5, 95, 65);
+    text-shadow: rgb(5, 73, 5) 1px 0 5px;
+    cursor: pointer;
+}
